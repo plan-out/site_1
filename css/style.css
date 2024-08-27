@@ -17,7 +17,7 @@ a{display:inline-block; text-decoration:none; color:inherit;}
 .img{background:var(--img); text-indent:-9999px;}
 .font{font-family: "Just Another Hand", cursive;
 	text-transform:uppercase; letter-spacing:-0.02em;}
-#main_menu a::after,	
+
 .icon::after{content:''; background:var(--img) 0 -727px;
 	display:inline-block; width:10px; height:17px; margin-left:10px;}
 

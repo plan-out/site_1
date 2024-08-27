@@ -14,6 +14,8 @@
 
 	<!--plug_in-->
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+	<script src="js/script.js"></script>
 </head>
 <body>
 	<header>
@@ -119,41 +121,7 @@
 	</section><!--end:#notice-->
 
 	<nav id="main_menu" class="font counter">
-		<ul>
-			<li><a href="#">Muumilaakso</a>
-				<div class="sub">
-					<ul>
-						<li><a href="#">Seikkaillen kotiin</a></li>
-						<li><a href="#">Galleria</a></li>
-						<li><a href="#">Vittuaalikierros Metso 2012</a></li>
-					</ul>
-				</div><!--end:.sub-->
-			</li>
-			<li><a href="#">Ajankohtaista</a>
-				<div class="sub">
-					<ul>
-						<li><a href="#">Medialle</a></li>
-						<li><a href="#">Tapahtumakalenteri syksy 2016</a></li>
-					</ul>
-				</div><!--end:.sub-->
-			</li>
-			<li><a href="#">Muumimuseo</a>
-				<div class="sub">
-					<ul>
-						<li><a href="#">Muumimuseon ajankohtaista</a></li>
-					</ul>
-				</div><!--end:.sub-->
-			</li>
-			<li><a href="#">Tove Jansson</a>
-				<div class="sub">
-					<ul>
-						<li><a href="#">Tove 100</a></li>
-					</ul>
-				</div><!--end:.sub-->
-			</li>
-			<li><a href="#">Kauppa</a></li>
-			<li><a href="#">Yhteystiedot</a></li>
-		</ul>
+		
 	</nav><!--end:#main_menu-->
 
 	<footer>
@@ -169,25 +137,5 @@
 			Tampereen kaupunki</address>
 	</footer>
 
-	<script>
-		let view = new Swiper('#main_view', {
-			wrapperClass:'slider',	//슬라이드를 감싸는 요소의 클래스명
-			slideClass:'view',	//슬라이드 요소의 공통된 클래스명
-			effect:'fade',	//전환효과 
-			loop:true,		//슬라이드가 반복됨.
-			autoplay: { 	//자동슬라이드
-				delay: 2000,	//2000=2초마다 전환됨.
-			},
-			pagination: {	//슬라이트 버튼
-				el: '.pager',	//버튼영역 요소 지정
-				clickable: true,	//클릭시 슬라이드전환 활성화
-				bulletActiveClass: 'active', //활성화된 버튼에 부여되는 클래스명
-			},
-			navigation: { //이전&다음버튼
-				nextEl: '.next',
-				prevEl: '.prev',
-			},
-		});
-	</script>
 </body>
 </html>
