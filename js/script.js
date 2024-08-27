@@ -33,6 +33,11 @@ window.addEventListener("load",function(){
 		a.classList.add('icon');
 	});  
 
+	/*clone sns*/
+	var sns = document.querySelector(".sns").cloneNode(true);
+	document.querySelector("footer").prepend(sns);
+
+
 });//end:window.addEve...
 
 
